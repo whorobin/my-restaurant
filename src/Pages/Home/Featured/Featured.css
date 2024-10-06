@@ -1,0 +1,19 @@
+.featured-item {
+    background-image: url('../../../assets/home/featured_bg.jpg');
+}
+
+
+@media screen and (max-width : 576px) {
+    .featured-style {
+        padding: 25px;
+
+    }
+}
+
+
+@media screen and (min-width : 576px) and (max-width : 960px) {
+    .featured-style {
+        padding: 35px;
+
+    }
+}
